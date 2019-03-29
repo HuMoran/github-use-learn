@@ -1,5 +1,4 @@
 # github-use-learn
-GitHub使用规范
 
 ### GitHub 使用规范
 #### 分支管理规范：
