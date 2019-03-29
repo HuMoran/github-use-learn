@@ -45,8 +45,9 @@ GitHub使用学习与示例
 #### Issues提交规范：
 - 当有新的feature或者BUG时，可以直接在github上提交issue，issue标题请遵守以下格式：
     > feature: `[RFC]title`
+
     > BUG:`[BUG]title`
 
-- feature或者BUG确认后，由负责人打上对应标签，并指派对应的开发人员解决
+- 提交的issue由负责人确认，确认后打上对应标签，并指派对应的开发人员解决
 - 开发人员提交代码时，指明对应的issue，issue自动关闭，issue提交人确认是否正确，如不正确，重开issue
 
