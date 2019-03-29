@@ -47,6 +47,6 @@ GitHub使用学习与示例
     > feature: `[RFC]title`
     > BUG:`[BUG]title`
 
-- feature或者bug确认后，由负责人打上对应标签，并指派对应的开发人员解决
+- feature或者BUG确认后，由负责人打上对应标签，并指派对应的开发人员解决
 - 开发人员提交代码时，指明对应的issue，issue自动关闭，issue提交人确认是否正确，如不正确，重开issue
 
