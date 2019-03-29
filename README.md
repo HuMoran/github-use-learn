@@ -32,7 +32,7 @@ GitHub使用学习与示例
 - 阶段版本号：小功能或者BUG修复
 - 测试阶段（可选）
 - 阶段测试版本号（可选）
-**eg:**  0.9.1-alpha8、0.9.1-beta1、0.9.1-rc1、1.0.0
+- **eg:**  0.9.1-alpha8、0.9.1-beta1、0.9.1-rc1、1.0.0
 
 #### git commit提交规范：
 参考文章：[Commit message 和 Change log 编写指南 - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html)
