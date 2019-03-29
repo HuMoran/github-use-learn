@@ -39,7 +39,13 @@ GitHub使用学习与示例
 - 阶段测试版本号（可选）
 - **eg:**  0.9.1-alpha8、0.9.1-beta1、0.9.1-rc1、1.0.0
 
-#### git commit提交规范：
+#### git add规范：
+- 禁止使用`git add .`命令，只能单个依次添加自己修改的文件
+- 推荐使用vsCode的Git功能，依次确认要添加的文件和修改的内容是否正确
+- 所有修改的代码，必须通过代码静态检查后，才能提交（nodejs：eslint、c：linter）
+- 提交的代码中，应取出多余的打印信息
+
+#### git commit规范：
 参考文章：[Commit message 和 Change log 编写指南 - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html)
 
 #### Issues提交规范：
