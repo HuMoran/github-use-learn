@@ -5,7 +5,7 @@
 - master分支:
   - master为主分支，存放测试通过，正式发布的release版本代码
   - master分支只能通过develop分支合并，不能直接提交代码
-  - master分支上的BUG原则上通过发布下一个版本来修复，如果有需要紧急修复的BUG，可视情况通过发布热补丁或从master分支上checkout从一个hotfix分支修复，最后在合并到master和develop分支
+  - master分支上的BUG原则上通过发布下一个版本来修复，如果有需要紧急修复的BUG，可视情况通过发布热补丁或从master分支上checkout出一个hotfix分支修复，最后在合并到master和develop分支
  
 - develop分支：
   - dev为开发分支，存放功能开发、自测完，待测试人员测试的最新代码
