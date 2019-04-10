@@ -10,15 +10,14 @@
 - develop分支：
   - dev为开发分支，存放功能开发、自测完，待测试人员测试的最新代码
   - dev分支只能通过其他分支合并，不能直接提交代码
- 
-- release分支：
-  - 从develop分支checkout出来，用于版本发布和测试的分支
-  - 如有BUG需要修复，在BUG很小，不影响其他分支，可以直接在上面修改，最后在合并入develop分支，其他情况需要在develop的下个版本上修复
   - 测试分为三个阶段：Alpha（α）、Beta（β）、Release Candidate（RC），每个阶段可视情况发布一次或多次版本，直至测试通过
-  - RC测试通过后，合并到master分支，并正式发布
- 
-- feature分支:
-  - 当有新的feature需要开发时，从dev分支checkout出一个分支，分支名称使用feature命名，feature开发测试完成后，合并入develop分支，并删除feature分支
+  - 测试流程：
+    1. 研发发布版本
+    2. 根据版本拉取代码构建
+    3. 部署
+    3. 测试
+    4. 结果反馈
+   - RC测试通过后，合并到master分支，并正式发布
  
 - hotfix分支：
   - 修复BUG时临时chechout出来的分支，修复完成后，合并入主分，并删除此hotfix分支 
