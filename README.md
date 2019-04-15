@@ -20,8 +20,9 @@
    - RC测试通过后，合并到master分支，并正式发布
  
 - hotfix分支：
-  - 修复BUG时临时chechout出来的分支，修复完成后，合并入主分，并删除此hotfix分支 
-
+  - 修复BUG时临时checkout出来的分支，修复完成后，合并入主分，并删除此hotfix分支
+- feature分支:
+  - 当有新的feature需要开发时，从dev分支checkout出一个分支，分支名称使用feature命名，feature开发测试完成后，合并入develop分支，并删除feature分支
 - 分支合并：
   - 如果代码需要合并到master或者develop分支，首先需要在github上面发起一个pull request请求，然后通知组内的另外成员，进行代码Review，Review通过后，由该成员完成合并请求
   - 合并时，请先使用`git rebase -i`合并develop或者master分支代码，在提交pull request请求
